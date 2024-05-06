@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/banners.css">
     <link rel="icon" href="assets/img/csmicropng.png">
 
     <title>Home - Casa do Microondas</title>
@@ -16,19 +17,7 @@
     <div id="header-placeholder"></div>
 
     <main>
-        <div class="alignBanner">
-            <div class="banner">
-                <div class="onleftBanner">
-                    <p id="regularFont">SAMSUNG</p>
-                    <p id="bigText">Micro-ondas<br>Inteligente</p>
-                    <p id="regularFont">POR</p>
-                    <p id="numText">R$1.200</p>
-                    <div class="btnBanner">
-                        <p>COMPRE AGORA</p><span class="material-symbols-outlined">north_east</span>
-                    </div> 
-                </div>
-            </div>
-        </div>
+        <div id="bannerReforma"></div>
     
         <p id="titleContent">Mais Vistos</p>
         <div class="content">
@@ -88,6 +77,8 @@
             </div>
         </div>
     
+        <div id="bannerSamsung"></div>
+        
         <p id="titleContent">Menos Vistos</p>
         <div class="content">
             <div class="container">
@@ -168,8 +159,10 @@
             .catch(error => console.error('Failed to load ' + url + ': ' + error));
         }
 
-        loadHTML('header.html', 'header-placeholder');
-        loadHTML('footer.html', 'footer-placeholder');
+        loadHTML('components/header.html', 'header-placeholder');
+        loadHTML('components/footer.html', 'footer-placeholder');
+        loadHTML('components/banners/bannerReforma.html', 'bannerReforma');
+        loadHTML('components/banners/bannerSamsung.html', 'bannerSamsung');
 
         function scrollToBottom() {
             window.scrollTo(0, document.body.scrollHeight);
