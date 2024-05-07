@@ -53,8 +53,12 @@
             .catch(error => console.error('Failed to load ' + url + ': ' + error));
         }
 
-        loadHTML('header.html', 'header-placeholder');
-        loadHTML('footer.html', 'footer-placeholder');
+        loadHTML('components/header.html', 'header-placeholder');
+        loadHTML('components/footer.html', 'footer-placeholder');
+        
+        function scrollToBottom() {
+            window.scrollTo(0, document.body.scrollHeight);
+        }
     </script>
 
 </body>

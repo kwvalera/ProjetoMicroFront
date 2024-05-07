@@ -10,29 +10,16 @@ body {
     font-weight: 600;
 }
 
-button {
-    border-radius: 5px;
-}
-
-button:hover {
-    background-color: #30A9DF;
-  }
-  
-button:active {
-    background-color: #30A9DF;
-}
-
 .mainHeader {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 60px;
     height: 90px;
     background-color: #ff681f;
 }
 
 #iconHeader {
-    margin-right: 20px;
     height: 60px;
     cursor: pointer;
 }
