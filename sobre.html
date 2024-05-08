@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1.0, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/sobre.css">
+    <link rel="icon" href="assets/img/csmicropng.png">
+
+    <title>Sobre - Casa do Microondas</title>
+</head>
+<body>
+
+    <div id="header-placeholder"></div>
+   
+    <p id="titleSobre">Sobre nós</p>
+    <div class="sobre">
+        <div class="contentSobre">
+            <div class="logoSobre">
+                <div>
+                    <img src="assets/img/csmicropng.png">
+                    <p>CASA DO MICROONDAS</p>
+                </div>
+            </div>
+            
+            <div class="alignSobre">
+                <p id="subTitleSobre">Endereço:</p>
+                <div class="containerSobre">Opção 1 - Avenida Presidente Kennedy, 410 - Rebouças</div>
+                <div class="containerSobre">Opção 2 - Rua Saturnino Miranda, 84 - Santa Felicidade</div>
+            </div>
+            <div class="alignSobre">
+                <p id="subTitleSobre">Telefone:</p>
+                <div class="linha1">
+                    <div class="containerSobre">(41) 3332-8000</div>
+                </div>
+            </div>
+            <div class="alignSobre">
+                <p id="subTitleSobre">Whatsapp:</p>
+                <div class="linha2">
+                    <div class="containerSobre">Opção 1 - (41) 98516-3600</div>
+                    <div class="containerSobre">Opção 2 - (41) 98516-3602</div>
+                </div>
+            </div>
+            <div class="alignSobre">
+                <p id="subTitleSobre">Redes sociais:</p>
+                <div id="iconRedeSobre">
+                    <i class="fa-brands fa-facebook fa-2xl" onclick="openLink('https://www.facebook.com')"></i>
+                    <i class="fa-brands fa-twitter fa-2xl" onclick="openLink('https://twitter.com')"></i>
+                    <i class="fa-brands fa-instagram fa-2xl" onclick="openLink('https://www.instagram.com')"></i>
+                    <i class="fa-brands fa-linkedin fa-2xl" onclick="openLink('https://www.linkedin.com')"></i>   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="https://kit.fontawesome.com/e17cdc3697.js" crossorigin="anonymous"></script>
+    <script>
+        function openURL(href) {
+            window.location.href = href;
+        }
+
+        function openLink(url) {
+            window.open(url, '_blank');
+        }
+
+        function loadHTML(url, elementId) {
+        fetch(url)
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById(elementId).innerHTML = html;
+            })
+            .catch(error => console.error('Failed to load ' + url + ': ' + error));
+        }
+
+        loadHTML('components/header.html', 'header-placeholder');
+        loadHTML('components/footer.html', 'footer-placeholder');
+        
+        function scrollToBottom() {
+            window.scrollTo(0, document.body.scrollHeight);
+        }
+    </script>
+
+</body>
+</html>
