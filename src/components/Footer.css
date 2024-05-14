@@ -79,6 +79,8 @@
 }
 
 .inputButtonFooter {
+    font-family: "Dm_Sans";
+    font-weight: 600;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,21 +92,22 @@
     padding: 10px;
 }
 
-.followUsFooter {
-    margin-top: 15px;
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 15px;
-}
-
-.followUsFooter div {
-    margin-top: 15px;
+#iconRedeSobre {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
 }
 
-.followUsFooter i {
+#subTitleSocial {
+    font-family: "Dm_Sans";
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#iconRedeSobre i {
     cursor: pointer;
+    margin-top: 30px;
+    margin-right: 10px;
 }
 
 .footnote{

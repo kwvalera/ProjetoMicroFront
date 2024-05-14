@@ -7,9 +7,20 @@
     background-color: #ff681f;
 }
 
+#alignLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #iconHeader {
-    height: 60px;
+    height: 55px;
     cursor: pointer;
+}
+
+#labelLogo {
+    font-size: 11px;
+    margin: 0;
 }
 
 .buttonHeader {
