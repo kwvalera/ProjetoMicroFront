@@ -79,20 +79,20 @@ export default function Footer() {
                             <input class="inputFooter" type="text" placeholder="Email..." required/>
                             <button class="inputButtonFooter" type="submit">Inscreva-se</button>
                         </form>
-                        <section class="followUsFooter">
-                            <p>Nos Siga</p>
-                            <div>
+                        <div>
+                            <p id="subTitleSocial">Redes sociais:</p>
+                            <div id="iconRedeSobre">
                                 <i class="fa-brands fa-facebook fa-2xl" onclick="openLink('https://www.facebook.com')"></i>
                                 <i class="fa-brands fa-twitter fa-2xl" onclick="openLink('https://twitter.com')"></i>
                                 <i class="fa-brands fa-instagram fa-2xl" onclick="openLink('https://www.instagram.com')"></i>
                                 <i class="fa-brands fa-linkedin fa-2xl" onclick="openLink('https://www.linkedin.com')"></i>   
                             </div>
-                        </section>
+                        </div>
                     </div>
                 </div>
                 <div class="footnote" id="footnote">
                     <div class="copyright">
-                        © Casa do Microondas – All Rights Reserved
+                        © Casa do Microondas - All Rights Reserved
                     </div>
                     <div class="iconFooter">
                         <img id="iconHeader" src="assets/img/csicon.png" onclick="openPage()" alt="logo"/>

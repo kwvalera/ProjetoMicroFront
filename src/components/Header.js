@@ -4,7 +4,10 @@ export default function Header() {
     return (
       <div>
         <header class="mainHeader">
-            <img id="iconHeader" src="assets/img/csicon.png" onclick="openPage('index.html')" alt="logo"/>
+        <div id="alignLogo">
+            <img id="iconHeader" src="assets/img/csicon.png" alt="logo" onclick="openURL('index.html')"/>
+            <p id="labelLogo">CASA DO MICROONDAS</p>
+        </div>
             <div class="buttonHeader">
                 <button type="submit" onclick="openPage('index.html')">Home</button>
                 <button type="submit" onclick="openPage('contato.html')">Contato</button>
