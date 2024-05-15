@@ -1,7 +1,7 @@
-import "./ContainerItem.css"
+import "./styles/ItemContainer.css"
 import { useNavigate } from "react-router-dom";
 
-export default function ContainerItem(props) {
+export default function ItemContainer(props) {
     const navigate = useNavigate();
     
     return (

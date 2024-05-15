@@ -1,10 +1,10 @@
-import BanSam from "../components/banners/BanSam"
+import SobreContent from "../components/SobreContent"
 
-export default function Sobre() {
+export default function Sobre() {    
     return (
         <div>
             <main>
-                <BanSam />
+                <SobreContent />
             </main>
         </div>
     );

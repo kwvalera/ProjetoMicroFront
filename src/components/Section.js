@@ -1,4 +1,4 @@
-import "./Section.css"
+import "./styles/Section.css"
 
 export default function Section(props) { //props é um objeto javascript quem tras title e subtitle
     return (

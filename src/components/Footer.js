@@ -1,4 +1,5 @@
-import "./Footer.css"
+import "./styles/Footer.css"
+import SocialSection from "./SocialSection";
 import { useNavigate } from "react-router-dom";
 
 export default function Footer() {
@@ -84,12 +85,7 @@ export default function Footer() {
                         </form>
                         <div>
                             <p id="subTitleSocial">Redes sociais:</p>
-                            <div id="iconSocial">
-                                <i class="fa-brands fa-facebook fa-2xl" onclick="openLink('https://www.facebook.com')"></i>
-                                <i class="fa-brands fa-twitter fa-2xl" onclick="openLink('https://twitter.com')"></i>
-                                <i class="fa-brands fa-instagram fa-2xl" onclick="openLink('https://www.instagram.com')"></i>
-                                <i class="fa-brands fa-linkedin fa-2xl" onclick="openLink('https://www.linkedin.com')"></i>   
-                            </div>
+                            <SocialSection />
                         </div>
                     </div>
                 </div>
