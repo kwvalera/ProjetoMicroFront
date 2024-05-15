@@ -2,14 +2,14 @@
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 500px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 600px rgba(0, 0, 0, 0.1);
     margin: 120px auto;
     max-width: 400px;
     text-align: center;
   }
   
   h2 {
-    text-align: center;
+    text-align: center; /*alterado para alinhar melhor os titulos*/
   }
   
   .input-group {
@@ -31,6 +31,7 @@
   }
   
   .btn-entrar-login {
+    /*botão de entrar*/
     width: 100%;
     margin-top: 20px;
     padding: 10px;
