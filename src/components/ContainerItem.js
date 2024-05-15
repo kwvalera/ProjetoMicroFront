@@ -1,9 +1,12 @@
-import "./ListItem.css"
+import "./ContainerItem.css"
+import { useNavigate } from "react-router-dom";
 
-export default function ListItem(props) {
+export default function ContainerItem(props) {
+    const navigate = useNavigate();
+    
     return (
         <div>
-            <div class="container">
+            <div class="container" onClick={() => navigate("/produto/"+props.idPdt)}>
                 <div>
                     <div class="imgContainer">
                         <img src={props.imgSrc} alt={props.alt} />

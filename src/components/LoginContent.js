@@ -1,6 +1,6 @@
-import "./Login.css"
+import "./LoginContent.css"
 
-export default function Login() {
+export default function LoginContent() {
     return (
         <div>
             <div class="login-container">
