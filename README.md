@@ -24,6 +24,11 @@ npx create-react-app nome_da_sua_pasta_aqui --use-npm
 cd nome_da_sua_pasta_aqui
 ```
 
+* Instale o React-Router-Dom para a navegabilidade do projeto:
+```shell
+npm install react-router-dom
+```
+
 * Delete os seguintes arquivos:
     * A Pasta **Public** inteira;
     * A Pasta **Src** inteira;
