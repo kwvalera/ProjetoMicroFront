@@ -26,7 +26,7 @@ cd nome_da_sua_pasta_aqui
 
 * Instale o React-Router-Dom para a navegabilidade do projeto:
 ```shell
-npm  install react-router-dom
+npm install react-router-dom
 ```
 
 * Delete os seguintes arquivos:

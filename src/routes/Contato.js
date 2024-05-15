@@ -1,9 +1,9 @@
-import BanRef from "../components/banners/BanRef";
+import ContatoContent from "../components/ContatoContent";
 
 export default function Contato() {
     return (
         <div>
-            <BanRef />
+            <ContatoContent />
         </div>
     );
 }

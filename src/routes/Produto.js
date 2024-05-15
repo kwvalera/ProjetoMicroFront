@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom'; /* O useParamns pega informações da url da pagina nesse caso o id, e usamos para exibir na tela ou puxar o elemento pelo id no banco */
 
 export default function Produto(props) {
     const { id } = useParams();

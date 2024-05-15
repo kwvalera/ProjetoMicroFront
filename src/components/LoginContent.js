@@ -1,4 +1,4 @@
-import "./LoginContent.css"
+import "./styles/LoginContent.css"
 
 export default function LoginContent() {
     return (

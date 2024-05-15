@@ -1,6 +1,6 @@
 import BanRef from "../components/banners/BanRef";
 import Section from "../components/Section";
-import ContainerItem from "../components/ContainerItem";
+import ItemContainer from "../components/ItemContainer";
 
 const itemListData = [
   {
@@ -83,7 +83,7 @@ export default function Home() {
           {// O .map sempre retorna na Section um novo arrey. Cada elemento desse arrey novo contem o ListItem
             itemListData.map(function (item) {
               return (
-                <ContainerItem
+                <ItemContainer
                   imgSrc={item.imgSrc}
                   alt={item.alt}
                   titlePdt={item.titlePdt}
@@ -99,7 +99,7 @@ export default function Home() {
           {
             maisVistoListData.map(function (item) {
               return (
-                <ContainerItem
+                <ItemContainer
                   imgSrc={item.imgSrc}
                   alt={item.alt}
                   titlePdt={item.titlePdt}
