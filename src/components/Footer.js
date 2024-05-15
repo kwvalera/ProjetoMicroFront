@@ -1,6 +1,9 @@
 import "./Footer.css"
+import { useNavigate } from "react-router-dom";
 
 export default function Footer() {
+    const navigate = useNavigate();
+    
     return (
         <div>
             <footer class="footer">
@@ -57,8 +60,8 @@ export default function Footer() {
                     </div>
                     <div class="columnFooter">
                         <p>Links Úteis</p>
-                        <div>Sobre</div>
-                        <div onclick="openPage('contato.html')">Contato</div>
+                        <div onClick={() => navigate("/sobre")}>Sobre</div>
+                        <div onClick={() => navigate("/contato")}>Contato</div>
                         <div>Central de Atendimento</div>
                         <div>Carreira</div>
                         <div>Políticas</div>
@@ -81,7 +84,7 @@ export default function Footer() {
                         </form>
                         <div>
                             <p id="subTitleSocial">Redes sociais:</p>
-                            <div id="iconRedeSobre">
+                            <div id="iconSocial">
                                 <i class="fa-brands fa-facebook fa-2xl" onclick="openLink('https://www.facebook.com')"></i>
                                 <i class="fa-brands fa-twitter fa-2xl" onclick="openLink('https://twitter.com')"></i>
                                 <i class="fa-brands fa-instagram fa-2xl" onclick="openLink('https://www.instagram.com')"></i>
@@ -94,8 +97,9 @@ export default function Footer() {
                     <div class="copyright">
                         © Casa do Microondas - All Rights Reserved
                     </div>
-                    <div class="iconFooter">
-                        <img id="iconHeader" src="assets/img/csicon.png" onclick="openPage()" alt="logo"/>
+                    <div id="alignLogo" onClick={() => navigate("/")}>
+                        <img id="iconFooter" src="assets/img/csicon.png" alt="logo"/>
+                        <p id="labelLogo">CASA DO MICROONDAS</p>
                     </div>
                     <div class="currency">
                         <select name="coin" id="coinInput">
