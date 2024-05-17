@@ -29,6 +29,11 @@ cd nome_da_sua_pasta_aqui
 npm install react-router-dom
 ```
 
+* Instale o Express para o Back-End do projeto:
+```shell
+npm install express
+```
+
 * Delete os seguintes arquivos:
     * A Pasta **Public** inteira;
     * A Pasta **Src** inteira;
