@@ -8,7 +8,7 @@ export default function BanRef() {
     return (
         <div>
             <div class="alignBanner">
-                <div class="banner" id="bannRefColor" onClick={() => navigate('/reforma')}>
+                <div class="banner" id="bannRefColor" onClick={() => navigate('/conserto')}>
                     <div class="btnBanner" id="btnBannerRef">
                         <p>CLIQUE AQUI</p><span class="material-symbols-outlined">north_east</span>
                     </div>
