@@ -1,5 +1,5 @@
-import "./Banners.css"
-import "./BanSam.css"
+import "./styles/Banners.css"
+import "./styles/BanSam.css"
 
 export default function BanSam() {
     return (

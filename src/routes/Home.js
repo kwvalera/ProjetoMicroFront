@@ -1,6 +1,7 @@
 import BanRef from "../components/banners/BanRef";
 import Section from "../components/Section";
 import ItemContainer from "../components/ItemContainer";
+import BanMarcas from "../components/banners/BanMarcas";
 
 const itemListData = [
   {
@@ -94,6 +95,8 @@ export default function Home() {
             })
           }
         </Section>
+
+        <BanMarcas />
 
         <Section title="Mais Comprados">
           {
