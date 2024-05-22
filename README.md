@@ -37,8 +37,9 @@ npm install express
 * Delete os seguintes arquivos:
     * A Pasta **Public** inteira;
     * A Pasta **Src** inteira;
-    * O **README**;
     * O **.gitignore**;
+    * O **package.json**;
+    * O **README**;
 
 * Crie um novo repositório do Git com o comando no terminal:
 ```shell
