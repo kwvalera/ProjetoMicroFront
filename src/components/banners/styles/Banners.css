@@ -10,7 +10,7 @@
     flex-grow: 1;
     height: 400px;
     max-width: 1340px;
-    background: url(img/micro1.png);
+    background: url(../img/micro1.png);
     background-size: 60%, auto;
     background-position: right;
     background-repeat: no-repeat;
