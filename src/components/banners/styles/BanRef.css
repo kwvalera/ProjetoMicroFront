@@ -1,6 +1,6 @@
 #bannRefColor {
     justify-content: center;
-    background: url(img/bannerReforma.jpg);
+    background: url(../img/bannerReforma.jpg);
     background-size: cover;
     background-position: center;
 }

@@ -1,5 +1,5 @@
-import "./Banners.css"
-import "./BanRef.css"
+import "./styles/Banners.css"
+import "./styles/BanRef.css"
 import { useNavigate } from "react-router-dom";
 
 export default function BanRef() {

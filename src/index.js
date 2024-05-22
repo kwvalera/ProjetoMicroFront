@@ -17,10 +17,10 @@ const routes = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       { path: "/",element: <Home />,title: ""},
-      { path: "contato", element: <Contato />,title: "Contato"},
-      { path: "sobre", element: <Sobre />,title: "Sobre"},
-      { path: "login", element: <Login />,title: "Login"},
-      { path: "/produto/:id", element: <Produto />,title: "Produto"},
+      { path: "contato", element: <Contato />,title: " - Contato"},
+      { path: "sobre", element: <Sobre />,title: " - Sobre"},
+      { path: "login", element: <Login />,title: " - Login"},
+      { path: "/produto/:id", element: <Produto />,title: " - Produto"},
     ]
   }
 ]);
