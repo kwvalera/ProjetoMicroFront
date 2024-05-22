@@ -8,14 +8,14 @@
     width: 240px;
     height: 400px;
     font-size: 20px;
-    transition: 0.2s ease;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 
 .container:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    /* transform: translateY(-1px); */
-    border: 1px solid lightgray;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.225);
+    transform: translateY(-2px);
+    /* border: 1px solid lightgray; */
 }
 
 .imgContainer {
