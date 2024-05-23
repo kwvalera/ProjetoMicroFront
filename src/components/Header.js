@@ -1,7 +1,7 @@
 import "./styles/Header.css"
 import { useNavigate } from "react-router-dom";
 
-export default function Header() {
+export default function Header() { // Componentização do Header para evidar repetição de codigo 
     const navigate = useNavigate();
     
     return (
@@ -30,20 +30,11 @@ export default function Header() {
                 <span class="material-symbols-outlined">sort</span><p>Categorias</p>
             </div>
             <div class="sndNav">
-                <div onClick={() => navigate("/mais-comprados")}>
-                    <span class="material-symbols-outlined">local_fire_department</span><p>Mais Comprados</p>
-                </div>
-                <div onClick={() => navigate("/ofertas-relampago")}>
-                    <span class="material-symbols-outlined">flash_on</span><p>Ofertas Relampago</p>
-                </div>
                 <div onClick={() => navigate("/conserto")}>
                     <span class="material-symbols-outlined">build</span><p>Conserto</p>
                 </div>
                 <div onClick={() => navigate("/reforma")}>
                     <span class="material-symbols-outlined">handyman</span><p>Reforma</p>
-                </div>
-                <div onClick={() => navigate("/aluguel")}>
-                    <span class="material-symbols-outlined">sync_alt</span><p>Aluguel</p>
                 </div>
                 <div onClick={() => navigate("/acessorios")}>
                     <span class="material-symbols-outlined">deployed_code</span><p>Acessórios</p>

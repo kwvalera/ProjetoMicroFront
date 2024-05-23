@@ -1,6 +1,6 @@
 import "./styles/SocialSection.css"
 
-export default function SocialSection() {
+export default function SocialSection() { // Componentização dos links de rede social para usar em varios lugares 
     return (
         <div>
             <section id="iconRedeSobre">

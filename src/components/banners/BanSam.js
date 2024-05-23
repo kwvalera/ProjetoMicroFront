@@ -1,7 +1,7 @@
 import "./styles/Banners.css"
 import "./styles/BanSam.css"
 
-export default function BanSam() {
+export default function BanSam() { // Componentização do Banner do microondas da samsung
     return (
         <div>
             <div class="alignBanner">
