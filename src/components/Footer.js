@@ -2,7 +2,7 @@ import "./styles/Footer.css"
 import SocialSection from "./SocialSection";
 import { useNavigate } from "react-router-dom";
 
-export default function Footer() {
+export default function Footer() { // Componentização do Footer para evidar repetição de codigo desnecessaria
     const navigate = useNavigate();
     
     return (

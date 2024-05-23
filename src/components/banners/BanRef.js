@@ -2,7 +2,7 @@ import "./styles/Banners.css"
 import "./styles/BanRef.css"
 import { useNavigate } from "react-router-dom";
 
-export default function BanRef() {
+export default function BanRef() { // Componentização do Banner de reforma
     const navigate = useNavigate();
     
     return (

@@ -1,7 +1,7 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 
-export default function ErrorPage() {
+export default function ErrorPage() { // Pagina de Error 404
     return (
     <div>
         <Header />
