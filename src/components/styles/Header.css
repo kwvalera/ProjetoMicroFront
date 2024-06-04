@@ -1,8 +1,7 @@
 .mainHeader {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 60px;
+    justify-content: space-between;
     height: 90px;
     background-color: #ff681f;
 }
@@ -12,6 +11,7 @@
     flex-direction: column;
     align-items: center;
     cursor: pointer;
+    margin-left: 40px;
 }
 
 #iconHeader {
@@ -23,12 +23,12 @@
     margin: 0;
 }
 
-.buttonHeader {
+.navigateHeader {
     display: flex;
     gap: 10px;
 }
 
-.buttonHeader > button {
+.navigateHeader > button {
     display: flex;
     align-items: center;
     font-family: "Dm_Sans";
@@ -39,30 +39,37 @@
     cursor: pointer;
 }
 
-.formHeader {
+.btnHeader {
     display: flex;
-    width: 780px;
-    height: 50px;
+    justify-content: space-around;
 }
 
-.searchInput {
-    flex-grow: 1;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px 0 0 5px;
-    outline: none;
-}
-
-.searchButton {
+.btnHeader div {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 10px;
+    padding: 13px 35px;
+    width: 60px;
     cursor: pointer;
-    width: 50px;
     border: none;
-    border-radius: 0 5px 5px 0;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.contatoHearder {
     color: white;
-    background-color: black;
+    background-color: black; /* #2959d3 */ /* #1a3f9b */
+}
+
+.zapHearder {
+    color: white;
+    background-color: #25d366;
+    gap: 10px;
+}
+
+#iconZap {
+    height: 17px;
 }
 
 .loginHeader {
@@ -76,6 +83,7 @@
     background: none;
     cursor: pointer;
     margin-left: 10px;
+    margin-right: 40px;
 }
 
 .rightBtnHeader {
@@ -92,12 +100,19 @@
     border: none;
 }
 
+.alignSndHeader{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid lightgrey;
+}
+
 .sndHeader {
     display: flex;
     padding: 0 30px;
-    gap: 20px;
+    gap: 30px;
+    max-width: 1410px;
+    width: 100%;
     height: 70px;
-    border-bottom: 1px solid lightgrey;
 }
 
 .categoryNav {
@@ -111,7 +126,7 @@
 
 .sndNav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-grow: 1;
 }
 
