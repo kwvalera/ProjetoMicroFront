@@ -7,7 +7,6 @@ import Home from "./routes/Home";
 import Contato from "./routes/Contato";
 import Sobre from "./routes/Sobre";
 import Login from "./routes/Login";
-import Produto from './routes/Produto';
 import ErrorPage from './routes/ErrorPage';
 
 const routes = createBrowserRouter([ // O DOM faz com que possamos utilizar rotas para o nosso site
@@ -20,7 +19,6 @@ const routes = createBrowserRouter([ // O DOM faz com que possamos utilizar rota
       { path: "contato", element: <Contato />},
       { path: "sobre", element: <Sobre />},
       { path: "login", element: <Login />},
-      { path: "/produto/:id", element: <Produto />},
     ]
   }
 ]);

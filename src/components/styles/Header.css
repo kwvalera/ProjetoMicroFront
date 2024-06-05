@@ -1,9 +1,21 @@
+.alignHeader {
+    display: flex;
+    justify-content: center;
+    background-color: #ff681f;
+}
+
 .mainHeader {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 1410px;
+    width: 100%;
     height: 90px;
-    background-color: #ff681f;
+}
+
+#leftContent {
+    display: flex;
+    gap: 60px;
 }
 
 #alignLogo {
@@ -11,7 +23,6 @@
     flex-direction: column;
     align-items: center;
     cursor: pointer;
-    margin-left: 40px;
 }
 
 #iconHeader {
@@ -39,9 +50,13 @@
     cursor: pointer;
 }
 
+#rightContent {
+    display: flex;
+    gap: 60px;
+}
+
 .btnHeader {
     display: flex;
-    justify-content: space-around;
 }
 
 .btnHeader div {
@@ -83,7 +98,6 @@
     background: none;
     cursor: pointer;
     margin-left: 10px;
-    margin-right: 40px;
 }
 
 .rightBtnHeader {

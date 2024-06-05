@@ -6,30 +6,35 @@ export default function Header() { // Componentização do Header para evidar re
 
     return (
         <div>
-            <header class="mainHeader">
-                <div id="alignLogo" onClick={() => navigate("/")}>
-                    <img id="iconHeader" src="assets/img/csicon.png" alt="logo" />
-                    <p id="labelLogo">CASA DO MICROONDAS</p>
-                </div>
-                <div class="navigateHeader">
-                    <button type="submit" onClick={() => navigate("/")}>Home</button>
-                    <button type="submit" onClick={() => navigate("/sobre")}>Sobre</button>
-                    <button type="submit" onClick={() => navigate("/contato")}>Contato</button>
-                </div>
-                <div class="btnHeader">
-                    <div class="zapHearder" onClick={() => navigate("/contato")}>
-                        <img id="iconZap" src="assets/img/zap.png" alt="logo do Whatsapp" />
-                        <p>Whatsapp</p>
+            <div class="alignHeader">
+                <header class="mainHeader">
+                    <div id="leftContent">
+                        <div id="alignLogo" onClick={() => navigate("/")}>
+                            <img id="iconHeader" src="assets/img/csicon.png" alt="logo" />
+                            <p id="labelLogo">CASA DO MICROONDAS</p>
+                        </div>
+                        <div class="navigateHeader">
+                            <button type="submit" onClick={() => navigate("/")}>Home</button>
+                            <button type="submit" onClick={() => navigate("/sobre")}>Sobre</button>
+                            <button type="submit" onClick={() => navigate("/contato")}>Contato</button>
+                        </div>
                     </div>
-                    <div class="contatoHearder" onClick={() => navigate("/contato")}>
-                        <p>Orçamento</p>
+                    <div id="rightContent">
+                        <div class="btnHeader">
+                            <div class="zapHearder" onClick={() => navigate("/contato")}>
+                                <img id="iconZap" src="assets/img/zap.png" alt="logo do Whatsapp" />
+                                <p>Whatsapp</p>
+                            </div>
+                            <div class="contatoHearder" onClick={() => navigate("/contato")}>
+                                <p>Orçamento</p>
+                            </div>
+                        </div>
+                        <div class="rightBtnHeader">
+                            <button class="loginHeader" type="submit" onClick={() => navigate("/login")}><span class="material-symbols-outlined">person</span><p>Login</p></button>
+                        </div>
                     </div>
-                    
-                </div>
-                <div class="rightBtnHeader">
-                    <button class="loginHeader" type="submit" onClick={() => navigate("/login")}><span class="material-symbols-outlined">person</span><p>Login</p></button>
-                </div>
-            </header>
+                </header>
+            </div>
             <div class="alignSndHeader">
                 <header class="sndHeader">
                     <div class="categoryNav">
