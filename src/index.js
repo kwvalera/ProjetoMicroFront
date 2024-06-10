@@ -3,11 +3,13 @@ import App from './App';
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
+import ErrorPage from './routes/ErrorPage';
 import Home from "./routes/Home";
 import Contato from "./routes/Contato";
 import Sobre from "./routes/Sobre";
 import Login from "./routes/Login";
-import ErrorPage from './routes/ErrorPage';
+import Acessorios from './routes/Acessorios';
+import Usados from './routes/Usados';
 
 const routes = createBrowserRouter([ // O DOM faz com que possamos utilizar rotas para o nosso site
   {
@@ -19,6 +21,8 @@ const routes = createBrowserRouter([ // O DOM faz com que possamos utilizar rota
       { path: "contato", element: <Contato />},
       { path: "sobre", element: <Sobre />},
       { path: "login", element: <Login />},
+      { path: "acessorios", element: <Acessorios />},
+      { path: "usados", element: <Usados />},
     ]
   }
 ]);
