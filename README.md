@@ -25,9 +25,9 @@ npx create-react-app nome_da_sua_pasta_aqui --use-npm
 ```
 * Note que você deve substituir o **nome_da_sua_pasta_aqui** pela pasta em que você deseja criar o ambiente React.
 
+##
 
-
-**ATENÇÃO** - Se você estiver encontrando erro em utilizar os comandos **npx** e **npm**, reinicie e Visual Studio Code pois na maioria dos casos o VScode não reconheceu que você ja instalou o node.js. Se o problema persistir reinicie o PC  e tente novamente. Para uma ultima solução desinstale o node, reinicie o PC e instale-o novamente e reinicie o PC.
+**ATENÇÃO** - Se você estiver encontrando erro em utilizar os comandos **npx** e **npm** reinicie o Visual Studio Code pois na maioria dos casos o VScode não reconheceu que você ja instalou o node.js. Se o problema persistir reinicie o PC  e tente novamente. Para uma ultima solução desinstale o node, reinicie o PC e instale-o novamente e reinicie o PC.
 
 * Para ter certeza que o **node** foi reconhecido digite no terminal:
 ```shell
@@ -46,7 +46,7 @@ npm -v
 ```
 A reposta deve ser a versão do npm que foi instalada.
 
-
+##
 
 * Entre na pasta criada pelo terminal com o comando:
 ```shell
@@ -58,12 +58,14 @@ cd nome_da_sua_pasta_aqui
 npm install react-router-dom
 ```
 
-* Delete os seguintes arquivos da pasta criada:
-    * A Pasta **Public** inteira;
-    * A Pasta **Src** inteira;
-    * O **.gitignore**;
-    * O **package.json**;
-    * O **README**;
+* Delete os seguintes arquivos da pasta com o ambiente react criada:
+    * A Pasta ***Public*** inteira;
+    * A Pasta ***Src*** inteira;
+    * O ***.gitignore***;
+    * O ***package.json***;
+    * O ***README***;
+
+Ao final seu ambiente react deve ter somente a pasta **/node_modules** e o arquivo **package-lock.json**.
 
 ## Git pull
 
