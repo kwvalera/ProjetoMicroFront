@@ -1,4 +1,4 @@
-import "./styles/ItemContainer.css"
+import "./AcesItemContainer.css"
 import { useNavigate } from "react-router-dom";
 
 export default function ItemContainer(props) {

@@ -1,13 +1,13 @@
-import "./styles/Section.css"
+import "./AcesSection.css"
 
-export default function Section(props) { //props é um objeto javascript quem tras title e subtitle
+export default function UsadoSection(props) { //props é um objeto javascript quem tras title e subtitle
     return (
         <div>
             <div id="alignContent">
                 <h1>{props.title}</h1>
-                <section>
+                <div class="itemGrid">
                     {props.children} {/*o clhidren pega tds os components q estao dentro da pai <Section /> e coloca aq*/}
-                </section>
+                </div>
             </div>
         </div>
     );

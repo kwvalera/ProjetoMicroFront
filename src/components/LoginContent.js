@@ -1,6 +1,6 @@
 import "./styles/LoginContent.css"
 
-export default function LoginContent() {
+export default function LoginContent() { // Component do conteudo da pagina de login
     return (
         <div>
             <div class="login-container">

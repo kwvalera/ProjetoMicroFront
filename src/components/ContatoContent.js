@@ -1,6 +1,6 @@
 import "./styles/ContatoContent.css"
 
-export default function ContatoContent() {
+export default function ContatoContent() { // Componentização do conteudo da pagina de contato
     return (
         <div>
             <p id="titleContato">Dúvidas - Orçamentos - Contato</p>

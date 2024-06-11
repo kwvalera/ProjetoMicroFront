@@ -60,7 +60,7 @@ p {
     align-items: center;
 }
 
-iframe {
+.sobreMap {
     width:425px; 
     height: 450;
     border: 0; 
