@@ -102,12 +102,9 @@ export default function Footer() { // Componentização do Footer para evidar re
                             <img id="iconFooter" src="assets/img/csicon.png" alt="logo"/>
                             <p id="labelLogo">CASA DO MICROONDAS</p>
                         </div>
-                        <div class="currency">
-                            <select name="coin" id="coinInput">
-                                <option value="valor1">Euro (EUR €)</option>
-                                <option value="valor2" selected>Real (BRL R$)</option>
-                                <option value="valor3">United States (USD $)</option>
-                            </select>
+                        <div id="alignLinkedin" onClick={() => window.open("https://linktr.ee/cmouniandrade", '_blank')}>
+                            <p id="labelLinkedin">Desenvolvedores do Site:</p>
+                            <i class="fa-brands fa-linkedin fa-2xl"></i>
                         </div>
                     </div>
                 </div>
