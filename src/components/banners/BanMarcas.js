@@ -7,12 +7,12 @@ export default function BanMarcas() {
     useEffect(() => { // useEffect permite executar ações em componentes para manipular a DOM. Nesse caso sera usada para redirecinar o usuario para a pagina desejada
         const listaMarcas = document.querySelectorAll(".logosBanMarcas div"); // Retorna uma lista de todos os elementos da div dentro do contêiner logosBanMarcas.
         const urlMarcas = { // Mapeia IDs para URLs específicas. É utilizado para determinar para onde o usuário deve ser redirecionado.
-            "brasIcon": "/brastemp", // "Keys": "Values",
-            "eleIcon": "/electrolux",
-            "lgIcon": "/lg",
-            "panaIcon": "/panasonic",
-            "philcoIcon": "/philco",
-            "samIcon": "/samsung"
+            "brasIcon": "marcas/brastemp", // "Keys": "Values",
+            "eleIcon": "marcas/electrolux",
+            "lgIcon": "marcas/lg",
+            "panaIcon": "marcas/panasonic",
+            "philcoIcon": "marcas/philco",
+            "samIcon": "marcas/samsung"
         };
 
         listaMarcas.forEach(div => { // Adiciona um event listener de clique a cada div dentro do contêiner logosBanMarcas. Por isso o listaMarcas antes do forEach.
