@@ -1,0 +1,152 @@
+.alignHeader {
+    display: flex;
+    justify-content: center;
+    background-color: #ff681f;
+}
+
+.mainHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1410px;
+    width: 100%;
+    height: 90px;
+}
+
+#leftContent {
+    display: flex;
+    gap: 60px;
+}
+
+#alignLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+#iconHeader {
+    height: 55px;
+}
+
+#labelLogo {
+    font-size: 11px;
+    margin: 0;
+}
+
+.navigateHeader {
+    display: flex;
+    gap: 10px;
+}
+
+.navigateHeader > button {
+    display: flex;
+    align-items: center;
+    font-family: "Dm_Sans";
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+#rightContent {
+    display: flex;
+    gap: 60px;
+}
+
+.btnHeader {
+    display: flex;
+}
+
+.btnHeader div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 13px 35px;
+    width: 60px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.contatoHearder {
+    color: white;
+    background-color: black; /* #2959d3 */ /* #1a3f9b */
+}
+
+.zapHearder {
+    color: white;
+    background-color: #25d366;
+    gap: 10px;
+}
+
+#iconZap {
+    height: 17px;
+}
+
+.loginHeader {
+    display: flex;
+    align-items: center;
+    font-family: "Dm_Sans";
+    font-weight: 600;
+    font-size: 15px;
+    gap: 5px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.rightBtnHeader {
+    display: flex;
+    gap: 10px;
+}
+
+.shopCartHeader {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+}
+
+.alignSndHeader{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid lightgrey;
+}
+
+.sndHeader {
+    display: flex;
+    padding: 0 30px;
+    gap: 30px;
+    max-width: 1410px;
+    width: 100%;
+    height: 70px;
+}
+
+.categoryNav {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 30px;
+    border-right: 1px solid lightgrey;
+}
+
+.sndNav {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.sndNav > div {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
