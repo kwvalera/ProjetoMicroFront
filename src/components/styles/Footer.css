@@ -161,22 +161,14 @@
 }
 
 #alignLinkedin {
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     align-items: center;
-    cursor: pointer;
-    margin-left: 225px;
     gap: 20px;
-}
-
-#alignLinkedin i {
-    margin-top: 20px;
+    margin-left: 60px;
 }
 
 #labelLinkedin {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 10px;
-    margin: 0;
+    font-weight: 500;
 }
