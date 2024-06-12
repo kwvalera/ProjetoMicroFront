@@ -4,7 +4,7 @@ import "./styles/SobreContent.css"
 export default function SobreContent() { // Componentização do conteudo da pagina sobre 
     return (
         <div>
-            <p id="titleSobre">Sobre nós</p>
+            <p id="titleSobre">Nossas informações</p>
             <div class="sobre">
                 <div class="contentSobre">
                     <div class="logoSobre">
