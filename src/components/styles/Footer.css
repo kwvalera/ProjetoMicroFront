@@ -160,18 +160,23 @@
     margin: 0;
 }
 
-.currency {
+#alignLinkedin {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    width: 320px;
+    cursor: pointer;
+    margin-left: 225px;
+    gap: 20px;
 }
 
-#coinInput {
-    font-family: "DM_sans";
-    font-weight: 500;
-    padding: 10px 20px;
-    border: 1px solid lightgrey;
-    border-radius: 5px 0 0 5px;
-    outline: none;
+#alignLinkedin i {
+    margin-top: 20px;
+}
+
+#labelLinkedin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    margin: 0;
 }

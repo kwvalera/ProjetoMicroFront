@@ -15,7 +15,7 @@ export default function Header() { // Componentização do Header para evidar re
                         </div>
                         <div class="navigateHeader">
                             <button type="submit" onClick={() => navigate("/")}>Home</button>
-                            <button type="submit" onClick={() => navigate("/sobre")}>Sobre</button>
+                            <button type="submit" onClick={() => navigate("/sobre")}>Endereço</button>
                             <button type="submit" onClick={() => navigate("/contato")}>Contato</button>
                         </div>
                     </div>
@@ -41,7 +41,6 @@ export default function Header() { // Componentização do Header para evidar re
                         <span class="material-symbols-outlined">sort</span><p>Serviços</p>
                     </div>
                     <div class="sndNav">
-                        <div onClick={() => navigate("/acessorios")}><span class="material-symbols-outlined">deployed_code</span><p>Acessórios</p></div>
                         <div onClick={() => navigate("/busca-e-entrega")}><span class="material-symbols-outlined">local_shipping</span><p>Busca e Entrega</p></div>
                         <div onClick={() => navigate("/conserto")}><span class="material-symbols-outlined">build</span><p>Conserto</p></div>
                         <div onClick={() => navigate("/reforma")}><span class="material-symbols-outlined">handyman</span><p>Reforma</p></div>
