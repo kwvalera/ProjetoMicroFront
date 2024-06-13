@@ -12,13 +12,13 @@ export default function Endereco() {
                     <div class="opsContent">
                         <div class="opContainer">
                             <div class="textEndereco">
-                                <h3 id="opEndereco">- Opção 1 -</h3>
+                                <h3 id="opEndereco">Unidade Rebouças</h3>
                                 <p id="endereco">Avenida Presidente Kennedy, 410 - Rebouças</p>
 
-                                <p id="zapEndereco">Whatsapp:</p>
+                                {/* <p id="zapEndereco">Whatsapp:</p> */}
                                 <div id="numEndereco">
                                     <img id="iconZap" src="assets/img/zap.png" alt="logo Whatsapp" />
-                                    (41) 98516-3600
+                                    Whatsapp (41) 98516-3600
                                 </div>
 
                                 <div class="btnEndereco" onClick={() => navigate('/sobre')}>
@@ -31,13 +31,13 @@ export default function Endereco() {
                         </div>
                         <div class="opContainer">
                             <div class="textEndereco">
-                                <h3 id="opEndereco">- Opção 2 -</h3>
+                                <h3 id="opEndereco">Unidade Santa Felicidade</h3>
                                 <p id="endereco">Rua Saturnino Miranda, 84 - Santa Felicidade</p>
 
-                                <p id="zapEndereco">Whatsapp:</p>
+                                {/* <p id="zapEndereco">Whatsapp:</p> */}
                                 <div id="numEndereco">
                                     <img id="iconZap" src="assets/img/zap.png" alt="logo Whatsapp" />
-                                    (41) 98516-3602
+                                    Whatsapp (41) 98516-3602
                                 </div>
                                 
                                 <div class="btnEndereco" onClick={() => navigate('/sobre')}>

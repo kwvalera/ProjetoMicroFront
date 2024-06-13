@@ -52,7 +52,7 @@
     font-size: 17px;
 }
 
-#zapEndereco, .btnEndereco {
+#numEndereco, .btnEndereco {
     margin-top: auto;
 }
 
@@ -62,8 +62,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 15px;
-    max-width: 150px;
-    margin-top: 2px;
+    max-width: 215px;
+    width: 100%;
     border-radius: 5px;
     font-size: 15px;
     color: white;
@@ -76,7 +76,7 @@
     justify-content: space-between;
     align-items: center;
     flex-grow: 1;
-    max-width: 190px;
+    max-width: 205px;
     max-height: 25px;
     background-color: #ff681f;
     color: black;
