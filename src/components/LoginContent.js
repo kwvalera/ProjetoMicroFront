@@ -4,7 +4,7 @@ export default function LoginContent() { // Component do conteudo da pagina de l
     return (
         <div>
             <div class="login-container">
-                <h2>Login</h2>
+                <h2 id="titleLogin">Login</h2>
                 <form id="login-form" action="login.php" method="POST">
                 <div class="input-group">
                     <label for="username">Usuário:</label>

@@ -1,5 +1,5 @@
 import "./styles/Footer.css"
-import SocialSection from "./SocialSection";
+//import SocialSection from "./SocialSection";
 import { useNavigate } from "react-router-dom";
 
 export default function Footer() { // Componentização do Footer para evidar repetição de codigo desnecessaria
@@ -40,7 +40,7 @@ export default function Footer() { // Componentização do Footer para evidar re
                         </div>
                     </div>
                 </div>
-                <div id="alignCateg">
+                {/* <div id="alignCateg">
                     <div class="categoriesFooter">
                         <div class="columnFooter">
                             <p>Categories</p>
@@ -92,7 +92,7 @@ export default function Footer() { // Componentização do Footer para evidar re
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div id="alignFootnote">
                     <div class="footnote" id="footnote">
                         <div class="copyright">
