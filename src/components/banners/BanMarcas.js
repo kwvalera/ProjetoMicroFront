@@ -38,11 +38,11 @@ export default function BanMarcas() {
                             <p>Somos autorizados pelas marcas a</p>
                             <p>utilizar suas peças em nossos serviços</p>
                         </div>
-                        <div>
+                        {/* <div>
                             <div class="btnBanner" onClick={() => navigate('/marcas')}>
                                 <p>SAIBA MAIS</p><span class="material-symbols-outlined">north_east</span>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     <div class="logosBanMarcas">
                         <section class="secitonMarcas">

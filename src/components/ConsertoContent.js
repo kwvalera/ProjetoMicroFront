@@ -12,6 +12,10 @@ export default function ConsertoContent() {
                         <div class="textBusca">
                             <p>Visite uma de nossas lojas para que nossos técnicos especializados possam realizar uma avaliação</p>
                             <p>minuciosa e detalhada do seu problema. Após a avalição será realizado o conserto do aparelho.</p>
+                            <div  id="sndTextConser">
+                                <p>Ao realizar a avaliação de seu aparelho você fala direto com técnico que o avaliou, para</p>
+                                <p>discutir preços e uma solução mais duradoura para seu problema</p>
+                            </div>
                             <ul>
                                 <li>Serviço com garantia;</li>
                                 <li>Peças originais;</li>
