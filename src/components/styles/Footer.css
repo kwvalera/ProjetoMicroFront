@@ -155,18 +155,13 @@
     height: 55px;
 }
 
-#labelLogo {
-    font-size: 11px;
-    margin: 0;
-}
-
 #alignLinkedin {
     cursor: pointer;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    margin-left: 60px;
+    margin-left: 120px;
 }
 
 #labelLinkedin {
