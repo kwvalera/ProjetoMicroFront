@@ -35,12 +35,12 @@ export default function BanMarcas() {
                             <h1>QUE TRABALHAMOS</h1>
                         </div>
                         <div id="descBanMarcas">
-                            <p>Saiba mais sobre todas as empresas </p>
-                            <p>e produtos com que trabalhamos</p>
+                            <p>Somos autorizados pelas marcas a</p>
+                            <p>utilizar suas peças em nossos serviços</p>
                         </div>
                         <div>
                             <div class="btnBanner" onClick={() => navigate('/marcas')}>
-                                <p>CLIQUE AQUI</p><span class="material-symbols-outlined">north_east</span>
+                                <p>SAIBA MAIS</p><span class="material-symbols-outlined">north_east</span>
                             </div>
                         </div>
                     </div>

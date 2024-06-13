@@ -13,29 +13,29 @@ export default function Footer() { // Componentização do Footer para evidar re
                         <div class="contentInfo">
                             <span class="material-symbols-outlined">package_2</span>
                             <div class="textContentInfo">
-                                Frete gratis acima de R$ 1.000+
-                                <p>Entrega em no máximo 3 dias!</p>
+                                Serviço de Busca e Entrega
+                                <p>Mediante a prazo a ser estabelecido</p>
                             </div>
                         </div>
                         <div class="contentInfo">
                             <span class="material-symbols-outlined">workspace_premium</span>
                             <div class="textContentInfo">
-                                Satisfação ou reembolso
-                                <p>Devoluções gratuitas em 14 dias</p>
+                                Satisfação do Cliente
+                                <p>Pós-Venda verifica cliente após serviço</p>
                             </div>
                         </div>
                         <div class="contentInfo">
                             <span class="material-symbols-outlined">headset_mic</span>
                             <div class="textContentInfo">
-                                Disponíveis a todo momento
+                                Disponíveis para Contato
                                 <p>Contate-nos por WhatsApp, Email, Telefone</p>
                             </div>
                         </div>
                         <div class="contentInfo">
                             <span class="material-symbols-outlined">credit_score</span>
                             <div class="textContentInfo">
-                                Pagamentos 100% seguros
-                                <p>Visa, Mastercard, Pix, PayPal</p>
+                                Pagamentos Customizados
+                                <p>Visa, Mastercard, Pix, dentre outros</p>
                             </div>
                         </div>
                     </div>
