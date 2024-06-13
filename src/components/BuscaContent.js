@@ -26,7 +26,7 @@ export default function BuscaContent() {
                         </h2>
                         <ul>
                             <li>Estar localizado em Curitiba</li>
-                            <li>Não atendemos as regiões metropolitnas</li>
+                            <li>Não atendemos as regiões metropolitanas</li>
                             <li>Ter disponibilidade em horario comercial para a busca e entrega do aparelho</li>
                             <li>Estar disposto a ficar sem o microondas por no minimo 2 dias</li>
                         </ul>
@@ -39,7 +39,7 @@ export default function BuscaContent() {
                             </div>
                         </div>
                     </div>
-                    <img id="imgBusca" src="assets/img/micro5.jpg" alt="foto de um microondas" />
+                    <img id="imgBusca" src="assets/img/entrega1.png" alt="foto de um microondas" />
                 </div>
             </div>
         </div>
