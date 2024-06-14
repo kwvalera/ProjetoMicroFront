@@ -19,6 +19,7 @@ export default function BuscaContent() {
                                 <li>Serviço com garantia;</li>
                                 <li>Peças originais;</li>
                                 <li>Limpeza técnica.</li>
+                                <li>Não cobramos pela avaliação</li>
                             </ul>
                         </div>
                         <h2>

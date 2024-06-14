@@ -10,12 +10,14 @@ export default function ReformaContent() {
                             Reforma de micro-ondas
                         </h1>
                         <div class="textBusca">
-                            <p>Oferecemos um serviço de reforma de alto padrão para aparelhos novos e antigos.</p>
-                            <p></p>
+                            <p>Oferecemos um serviço de reforma de alto padrão para aparelhos novos e antigos. Temos técnicos</p>
+                            <p>epecializados em diversos aparelhos, então não exitem nos contatar.</p>
+                            <p id="textConser">Também trabalhamos com forno elétrico e fazemos avaliação sem compromiso de outros aparelhos.</p>
                             <ul>
                                 <li>Serviço com garantia;</li>
                                 <li>Peças originais;</li>
                                 <li>Limpeza técnica.</li>
+                                <li>Não cobramos pela avaliação</li>
                             </ul>
                             <strong>Não atendemos em domicílio!</strong>
                         </div>
