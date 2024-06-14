@@ -73,9 +73,9 @@ export default function UsadoContent() {
         <div>
             <div class="alignUsado">
                 <div class="usadoContent">
-                    <div class="usadoFiltro">
+                    {/* <div class="usadoFiltro">
                         <h1>Filtros</h1>
-                    </div>
+                    </div> */}
                     <div class="usado">
                         <UsadoSection title="Usados">
                             {// O .map sempre retorna na Section um novo arrey. Cada elemento desse arrey novo contem o ListItem

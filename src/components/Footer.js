@@ -1,5 +1,5 @@
 import "./styles/Footer.css"
-import SocialSection from "./SocialSection";
+//import SocialSection from "./SocialSection";
 import { useNavigate } from "react-router-dom";
 
 export default function Footer() { // Componentização do Footer para evidar repetição de codigo desnecessaria
@@ -13,34 +13,34 @@ export default function Footer() { // Componentização do Footer para evidar re
                         <div class="contentInfo">
                             <span class="material-symbols-outlined">package_2</span>
                             <div class="textContentInfo">
-                                Frete gratis acima de R$ 1.000+
-                                <p>Entrega em no máximo 3 dias!</p>
+                                Serviço de Busca e Entrega
+                                <p>Mediante a prazo a ser estabelecido</p>
                             </div>
                         </div>
                         <div class="contentInfo">
                             <span class="material-symbols-outlined">workspace_premium</span>
                             <div class="textContentInfo">
-                                Satisfação ou reembolso
-                                <p>Devoluções gratuitas em 14 dias</p>
+                                Satisfação do Cliente
+                                <p>Pós-Venda verifica cliente após serviço</p>
                             </div>
                         </div>
                         <div class="contentInfo">
                             <span class="material-symbols-outlined">headset_mic</span>
                             <div class="textContentInfo">
-                                Disponíveis a todo momento
+                                Disponíveis para Contato
                                 <p>Contate-nos por WhatsApp, Email, Telefone</p>
                             </div>
                         </div>
                         <div class="contentInfo">
                             <span class="material-symbols-outlined">credit_score</span>
                             <div class="textContentInfo">
-                                Pagamentos 100% seguros
-                                <p>Visa, Mastercard, Pix, PayPal</p>
+                                Pagamentos Customizados
+                                <p>Visa, Mastercard, Pix, dentre outros</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div id="alignCateg">
+                {/* <div id="alignCateg">
                     <div class="categoriesFooter">
                         <div class="columnFooter">
                             <p>Categories</p>
@@ -92,7 +92,7 @@ export default function Footer() { // Componentização do Footer para evidar re
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div id="alignFootnote">
                     <div class="footnote" id="footnote">
                         <div class="copyright">
@@ -102,12 +102,9 @@ export default function Footer() { // Componentização do Footer para evidar re
                             <img id="iconFooter" src="assets/img/csicon.png" alt="logo"/>
                             <p id="labelLogo">CASA DO MICROONDAS</p>
                         </div>
-                        <div class="currency">
-                            <select name="coin" id="coinInput">
-                                <option value="valor1">Euro (EUR €)</option>
-                                <option value="valor2" selected>Real (BRL R$)</option>
-                                <option value="valor3">United States (USD $)</option>
-                            </select>
+                        <div id="alignLinkedin" onClick={() => window.open("https://linktr.ee/cmouniandrade", '_blank')}>
+                            <p id="labelLinkedin">Desenvolvedores do Site:</p>
+                            <i class="fa-brands fa-linkedin fa-2xl"></i>
                         </div>
                     </div>
                 </div>

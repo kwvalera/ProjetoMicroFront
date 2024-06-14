@@ -7,12 +7,12 @@ export default function BanMarcas() {
     useEffect(() => { // useEffect permite executar ações em componentes para manipular a DOM. Nesse caso sera usada para redirecinar o usuario para a pagina desejada
         const listaMarcas = document.querySelectorAll(".logosBanMarcas div"); // Retorna uma lista de todos os elementos da div dentro do contêiner logosBanMarcas.
         const urlMarcas = { // Mapeia IDs para URLs específicas. É utilizado para determinar para onde o usuário deve ser redirecionado.
-            "brasIcon": "/brastemp", // "Keys": "Values",
-            "eleIcon": "/electrolux",
-            "lgIcon": "/lg",
-            "panaIcon": "/panasonic",
-            "philcoIcon": "/philco",
-            "samIcon": "/samsung"
+            "brasIcon": "marcas/brastemp", // "Keys": "Values",
+            "eleIcon": "marcas/electrolux",
+            "lgIcon": "marcas/lg",
+            "panaIcon": "marcas/panasonic",
+            "philcoIcon": "marcas/philco",
+            "samIcon": "marcas/samsung"
         };
 
         listaMarcas.forEach(div => { // Adiciona um event listener de clique a cada div dentro do contêiner logosBanMarcas. Por isso o listaMarcas antes do forEach.
@@ -35,14 +35,14 @@ export default function BanMarcas() {
                             <h1>QUE TRABALHAMOS</h1>
                         </div>
                         <div id="descBanMarcas">
-                            <p>Saiba mais sobre todas as empresas </p>
-                            <p>e produtos com que trabalhamos</p>
+                            <p>Somos autorizados pelas marcas a</p>
+                            <p>utilizar suas peças em nossos serviços</p>
                         </div>
-                        <div>
+                        {/* <div>
                             <div class="btnBanner" onClick={() => navigate('/marcas')}>
-                                <p>CLIQUE AQUI</p><span class="material-symbols-outlined">north_east</span>
+                                <p>SAIBA MAIS</p><span class="material-symbols-outlined">north_east</span>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     <div class="logosBanMarcas">
                         <section class="secitonMarcas">

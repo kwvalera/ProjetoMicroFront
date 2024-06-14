@@ -8,8 +8,10 @@ import Home from "./routes/Home";
 import Contato from "./routes/Contato";
 import Sobre from "./routes/Sobre";
 import Login from "./routes/Login";
-import Acessorios from './routes/Acessorios';
-import Usados from './routes/Usados';
+import Usados from "./routes/Usados";
+import BuscaEntrega from "./routes/BuscaEntrega"
+import Conserto from './routes/Conserto';
+import Reforma from './routes/Reforma';
 
 const routes = createBrowserRouter([ // O DOM faz com que possamos utilizar rotas para o nosso site
   {
@@ -21,8 +23,10 @@ const routes = createBrowserRouter([ // O DOM faz com que possamos utilizar rota
       { path: "contato", element: <Contato />},
       { path: "sobre", element: <Sobre />},
       { path: "login", element: <Login />},
-      { path: "acessorios", element: <Acessorios />},
       { path: "usados", element: <Usados />},
+      { path: "busca-e-entrega", element: <BuscaEntrega />},
+      { path: "conserto", element: <Conserto />},
+      { path: "reforma", element: <Reforma />},
     ]
   }
 ]);
