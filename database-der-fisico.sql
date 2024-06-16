@@ -12,7 +12,8 @@ CREATE TABLE Categoria(
 CREATE TABLE Marca(
     id_marca INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
     nome_marca VARCHAR(20) NOT NULL,
-    descricao_marca VARCHAR(100) NOT NULL
+    descricao_marca VARCHAR(100) NOT NULL,
+    url_marca VARCHAR(100) NOT NULL
 );
 
 CREATE TABLE TipoProduto(
@@ -129,7 +130,7 @@ CREATE TABLE Frete(
     id_frete INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
     id_endereco_frete INT /* FK */ NOT NULL,
     id_os INT /* FK */ NOT NULL,
-    valor_frete FLOAT(6,2)(6,2) NOT NULL
+    valor_frete FLOAT(6,2) NOT NULL
 );
 
 CREATE TABLE Telefone(
