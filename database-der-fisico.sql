@@ -13,7 +13,8 @@ CREATE TABLE Marca(
     id_marca INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
     nome_marca VARCHAR(20) NOT NULL,
     descricao_marca VARCHAR(100) NOT NULL,
-    url_marca VARCHAR(100) NOT NULL
+    url_marca VARCHAR(100) NOT NULL,
+    flag BOOLEAN NOT NULL DEFAULT 0 COMMENT '1 APARECE NO SITE'
 );
 
 CREATE TABLE TipoProduto(
