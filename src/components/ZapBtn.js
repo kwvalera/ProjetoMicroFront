@@ -1,7 +1,7 @@
 import "./styles/ZapBtn.css";
 
 export default function ZapBtn(props) {
-    const linkZap = "https://chat.whatsapp.com/BbghIPbiIj69cb1BsIZWwZ";
+    const linkZap = "https://chat.whatsapp.com/BDV5HfU2YUkAufcvghnJT1";
 
     return(
         <div class="btnZap">
