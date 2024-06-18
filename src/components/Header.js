@@ -1,3 +1,4 @@
+import ZapBtn from "./ZapBtn";
 import "./styles/Header.css"
 import { useNavigate } from "react-router-dom";
 
@@ -20,11 +21,8 @@ export default function Header() { // Componentização do Header para evidar re
                         </div>
                     </div>
                     <div id="rightContent">
-                        <div class="btnHeader">
-                            <div class="zapHearder" onClick={() => navigate("/contato")}>
-                                <img id="iconZap" src="assets/img/zap.png" alt="logo do Whatsapp" />
-                                <p>Whatsapp</p>
-                            </div>
+                        <div id="btnHeader">
+                            <ZapBtn />
                             <div class="contatoHearder" onClick={() => navigate("/contato")}>
                                 <p>Orçamento</p>
                             </div>
