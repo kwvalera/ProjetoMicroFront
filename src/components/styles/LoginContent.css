@@ -52,3 +52,16 @@
 .btn-entrar-login:active {
   background-color: #30A9DF;
 }
+
+#alignCadastro {
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+#labelCadastro:hover {
+  color: #30A9DF;
+  text-decoration: underline;
+}

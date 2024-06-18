@@ -1,6 +1,8 @@
 import "./styles/LoginContent.css"
+import { useNavigate } from "react-router-dom";
 
 export default function LoginContent() { // Component do conteudo da pagina de login
+    const navigate = useNavigate();
     return (
         <div>
             <div class="login-container">
@@ -15,6 +17,9 @@ export default function LoginContent() { // Component do conteudo da pagina de l
                     <input type="password" id="password" name="password" required/>
                 </div>
                 <button class="btn-entrar-login" type="submit">Entrar</button>
+                <div id="alignCadastro" onClick={() => navigate("/cadastro")}>
+                    <p id="labelCadastro">Criar uma conta</p>
+                </div>
                 </form>
             </div>
         </div>

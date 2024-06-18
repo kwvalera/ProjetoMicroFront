@@ -12,6 +12,7 @@ import Usados from "./routes/Usados";
 import BuscaEntrega from "./routes/BuscaEntrega"
 import Conserto from './routes/Conserto';
 import Reforma from './routes/Reforma';
+import Cadastro from './routes/Cadastro';
 
 const routes = createBrowserRouter([ // O DOM faz com que possamos utilizar rotas para o nosso site
   {
@@ -27,6 +28,7 @@ const routes = createBrowserRouter([ // O DOM faz com que possamos utilizar rota
       { path: "busca-e-entrega", element: <BuscaEntrega />},
       { path: "conserto", element: <Conserto />},
       { path: "reforma", element: <Reforma />},
+      { path: "cadastro", element: <Cadastro />},
     ]
   }
 ]);
