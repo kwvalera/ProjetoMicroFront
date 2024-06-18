@@ -1,3 +1,4 @@
+import ZapBtn from "./ZapBtn";
 import "./styles/Endereco.css";
 import { useNavigate } from "react-router-dom";
 
@@ -15,11 +16,7 @@ export default function Endereco() {
                                 <h3 id="opEndereco">Unidade Rebouças</h3>
                                 <p id="endereco">Avenida Presidente Kennedy, 410 - Rebouças</p>
 
-                                {/* <p id="zapEndereco">Whatsapp:</p> */}
-                                <div id="numEndereco">
-                                    <img id="iconZap" src="assets/img/zap.png" alt="logo Whatsapp" />
-                                    Whatsapp (41) 98516-3600
-                                </div>
+                                <ZapBtn>(41) 98516-3600</ZapBtn> {/* Esse num é levado ate o ZapBtn.js onde o props.children pega e coloca no botao */}
 
                                 <div class="btnEndereco" onClick={() => navigate('/sobre')}>
                                     <p>MAIS INFORMAÇÕES</p><span class="material-symbols-outlined">north_east</span>
@@ -34,11 +31,7 @@ export default function Endereco() {
                                 <h3 id="opEndereco">Unidade Santa Felicidade</h3>
                                 <p id="endereco">Rua Saturnino Miranda, 84 - Santa Felicidade</p>
 
-                                {/* <p id="zapEndereco">Whatsapp:</p> */}
-                                <div id="numEndereco">
-                                    <img id="iconZap" src="assets/img/zap.png" alt="logo Whatsapp" />
-                                    Whatsapp (41) 98516-3602
-                                </div>
+                                <ZapBtn>(41) 98516-3602</ZapBtn>
                                 
                                 <div class="btnEndereco" onClick={() => navigate('/sobre')}>
                                     <p>MAIS INFORMAÇÕES</p><span class="material-symbols-outlined">north_east</span>

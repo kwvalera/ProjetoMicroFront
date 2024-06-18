@@ -58,36 +58,23 @@
     gap: 60px;
 }
 
-.btnHeader {
+#btnHeader {
     display: flex;
-}
-
-.btnHeader div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
-    padding: 13px 35px;
-    width: 60px;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    font-size: 15px;
+    justify-content: space-between;
+    width: 300px;
 }
 
 .contatoHearder {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
     color: white;
     background-color: black; /* #2959d3 */ /* #1a3f9b */
-}
-
-.zapHearder {
-    color: white;
-    background-color: #25d366;
-    gap: 10px;
-}
-
-#iconZap {
-    height: 17px;
 }
 
 .loginHeader {
